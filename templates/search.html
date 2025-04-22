@@ -1,0 +1,66 @@
+{% extends 'baseDash.html' %}
+{% block title %} Dashboard{% endblock title %}
+{% block body %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital & Doctor Search</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body >
+
+    <h2 class="text-center">Hospital & Doctor List</h2>
+
+    <table class="table table-bordered table-striped mt-3">
+        <thead class="table-primary">
+            <tr>
+                <th>#</th>
+                <th>Hospital Name</th>
+                <th>Location</th>
+                <th>Doctor</th>
+                <th>Specialization</th>
+                <th>Contact</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Apollo Hospital</td>
+                <td>Chennai</td>
+                <td>Dr. Ravi Kumar</td>
+                <td>Cardiologist</td>
+                <td>+91 9876543210</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Fortis Hospital</td>
+                <td>Bangalore</td>
+                <td>Dr. Priya Sharma</td>
+                <td>Neurologist</td>
+                <td>+91 9988776655</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>AIIMS</td>
+                <td>New Delhi</td>
+                <td>Dr. Arjun Mehta</td>
+                <td>Orthopedic</td>
+                <td>+91 9123456789</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>CMC Hospital</td>
+                <td>Vellore</td>
+                <td>Dr. Sneha Rao</td>
+                <td>Dermatologist</td>
+                <td>+91 9988223344</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
+
+{% endblock body %}

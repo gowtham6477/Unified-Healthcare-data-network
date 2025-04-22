@@ -1,0 +1,25 @@
+CREATE TABLE IF NOT EXISTS users(
+username varchar(200)
+);
+INSERT INTO users (username) VALUES 
+('rugved'),
+('hello'),
+('hello'),
+('hello'),
+('hello'),
+('hello'),
+ ('hello'),
+ ('hello'),
+ ('hello'),
+ ('hello'),
+ ('hello'),
+ ('hello'),
+ ('hello'),
+ ('hello'),
+ ('hello'),
+ ('hello'),
+ ('hello'),
+ ('hello'),
+ ('hello'),
+
+ ('hello');
