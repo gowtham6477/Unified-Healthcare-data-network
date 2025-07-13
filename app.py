@@ -9,11 +9,11 @@ import os
 app = Flask(__name__)
 Bootstrap(app)
 
-# MySQL Configuration (Change according to your XAMPP setup)
-app.config['MYSQL_HOST'] = 'localhost'  # or '127.0.0.1'
-app.config['MYSQL_USER'] = 'root'       # Default MySQL user in XAMPP
-app.config['MYSQL_PASSWORD'] = ''       # Default MySQL password is empty
-app.config['MYSQL_DB'] = 'restaurant'  # Replace with your database name
+
+app.config['MYSQL_HOST'] = 'localhost' 
+app.config['MYSQL_USER'] = 'root'       
+app.config['MYSQL_PASSWORD'] = ''       
+app.config['MYSQL_DB'] = 'restaurant'  
 app.config['MYSQL_CURSORCLASS'] = 'DictCursor'
 
 mysql = MySQL(app)
